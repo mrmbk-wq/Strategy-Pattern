@@ -1,9 +1,9 @@
 # Assignment #5 — Strategy Pattern: Report
 
-**Course:** ShP-2216 – Software Design Patterns
-**Topic:** Option A — Navigation / Route Planning
-**Language:** Java 17, IntelliJ IDEA
-**Repository:** https://github.com/mrmbk-wq/Strategy-Pattern
+**Course:** ShP-2216 – Software Design Patterns<br>
+**Topic:** Option A — Navigation / Route Planning<br>
+**Language:** Java 17, IntelliJ IDEA<br>
+**GitHub repository:** [https://github.com/mrmbk-wq/Strategy-Pattern](https://github.com/mrmbk-wq/Strategy-Pattern)
 
 ---
 
@@ -31,7 +31,7 @@ client can replace the strategy at runtime with `navigator.setRouteStrategy(...)
 
 ```mermaid
 classDiagram
-    direction LR
+    direction TB
 
     class RouteStrategy {
         <<interface>>
@@ -252,4 +252,4 @@ extra classes pay for themselves quickly.
 
 ## 6. Repository
 
-https://github.com/mrmbk-wq/Strategy-Pattern
+GitHub repository: [https://github.com/mrmbk-wq/Strategy-Pattern](https://github.com/mrmbk-wq/Strategy-Pattern)

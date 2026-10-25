@@ -4,6 +4,7 @@ import kz.aitu.strategy.context.Navigator;
 import kz.aitu.strategy.model.Trip;
 import kz.aitu.strategy.strategy.CarStrategy;
 import kz.aitu.strategy.strategy.CycleStrategy;
+import kz.aitu.strategy.strategy.PublicTransportStrategy;
 import kz.aitu.strategy.strategy.RouteStrategy;
 import kz.aitu.strategy.strategy.WalkStrategy;
 
@@ -23,6 +24,7 @@ public class Main {
         register("car", new CarStrategy());
         register("walk", new WalkStrategy());
         register("cycle", new CycleStrategy());
+        register("bus", new PublicTransportStrategy());
     }
 
     private static void register(String key, RouteStrategy strategy) {

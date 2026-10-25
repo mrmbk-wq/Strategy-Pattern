@@ -3,7 +3,6 @@ package kz.aitu.strategy.strategy;
 import kz.aitu.strategy.model.Route;
 import kz.aitu.strategy.model.Trip;
 
-/** Plans a route along bike lanes; a shared bike is paid per started 30 minutes. */
 public class CycleStrategy implements RouteStrategy {
 
     private static final double BIKE_LANE_DETOUR_FACTOR = 1.15;

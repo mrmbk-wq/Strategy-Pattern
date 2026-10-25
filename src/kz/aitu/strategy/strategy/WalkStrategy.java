@@ -3,7 +3,6 @@ package kz.aitu.strategy.strategy;
 import kz.aitu.strategy.model.Route;
 import kz.aitu.strategy.model.Trip;
 
-/** Plans the shortest pedestrian route; walking is free. */
 public class WalkStrategy implements RouteStrategy {
 
     private static final double FOOTPATH_DETOUR_FACTOR = 1.05;

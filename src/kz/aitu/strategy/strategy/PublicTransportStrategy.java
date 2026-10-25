@@ -3,11 +3,6 @@ package kz.aitu.strategy.strategy;
 import kz.aitu.strategy.model.Route;
 import kz.aitu.strategy.model.Trip;
 
-/**
- * Plans a bus route: waiting time at the stop plus riding time, flat fare.
- * Added later to show that a new strategy needs no change in Navigator
- * or in the other strategies.
- */
 public class PublicTransportStrategy implements RouteStrategy {
 
     private static final double BUS_ROUTE_DETOUR_FACTOR = 1.3;

@@ -6,11 +6,6 @@ import kz.aitu.strategy.strategy.RouteStrategy;
 
 import java.util.Objects;
 
-/**
- * Context: keeps a reference to the current {@link RouteStrategy}
- * and delegates route planning to it. It knows nothing about how
- * any concrete strategy works, and the strategy can be replaced at runtime.
- */
 public class Navigator {
 
     private RouteStrategy routeStrategy;

@@ -1,8 +1,5 @@
 package kz.aitu.strategy.model;
 
-/**
- * Result of route planning produced by a {@code RouteStrategy}.
- */
 public record Route(String transportMode,
                     Trip trip,
                     double travelDistanceKm,

@@ -3,7 +3,6 @@ package kz.aitu.strategy.strategy;
 import kz.aitu.strategy.model.Route;
 import kz.aitu.strategy.model.Trip;
 
-/** Plans a route along city roads by car and charges for fuel. */
 public class CarStrategy implements RouteStrategy {
 
     private static final double ROAD_DETOUR_FACTOR = 1.25;

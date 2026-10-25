@@ -12,10 +12,6 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-/**
- * Client: chooses which strategy the Navigator should use.
- * Strategies are looked up in a map, so there is no if/switch on the strategy type.
- */
 public class Main {
 
     private static final Map<String, RouteStrategy> STRATEGIES = new LinkedHashMap<>();
